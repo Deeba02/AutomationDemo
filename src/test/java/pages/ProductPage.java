@@ -8,6 +8,6 @@ public class ProductPage extends BasePage {
 
     public void addProductToCart() {
         driver.findElement(addToCartButton).click();
-        System.out.println("The product was added");
+        System.out.println("The product was add");
     }
 }
